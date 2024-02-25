@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build-css": "npx tailwindcss -i ./styles.css -o ./src/styles.css",
-    "build-css-w": "npx tailwindcss -i ./styles.css -o ./src/styles.css --watch"
+    "build-css-w": "npx tailwindcss -i ./styles.css -o ./src/styles.css --watch",
+    "build": "npx tailwindcss -i ./styles.css -o ./src/styles.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
